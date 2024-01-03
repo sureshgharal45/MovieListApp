@@ -61,10 +61,11 @@ A movie list application that allows users to browse movies year-wise by scrolli
 3. Detailed Movie View: Click on a movie card and opens up modal to view detailed information such as movie title, image, description, cast, and directors for that movie.
 4. Search functionality: Use the search input box to find movies by title. Apply genre filters to the search results data for a more targeted search.
 
+# Prerequisite to run the project
+1. Nodejs
+2. Package Manager: Either npm which comes with Node.js or Yarn. You can install Yarn from yarnpkg.com
+
 # Installation and Setup (To run the project)
-   # Prerequisite to run the project
-   1. Nodejs
-   2. Package Manager: Either npm which comes with Node.js or Yarn. You can install Yarn from yarnpkg.com
 1. Clone the respository using `git clone https://github.com/username/MovieListApp`
 2. Navigate to the project directory using cd.
 3. Install dependencies using npm install or yarn install.
