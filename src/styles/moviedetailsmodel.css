@@ -1,0 +1,84 @@
+/* Modal container */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+  color: black;
+}
+
+/* css for scroll bar on movie details modal*/
+.modal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.modal::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.modal::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+/* Close button */
+.modal button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Movie title */
+.modal h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Movie poster image */
+.modal img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Genres, cast, and crew lists */
+.modal h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.modal ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.modal ul li {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+/* Movie overview */
+.modal p {
+  font-size: 16px;
+  line-height: 1.5;
+}

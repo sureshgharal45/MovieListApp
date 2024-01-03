@@ -1,0 +1,97 @@
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 25%;
+}
+
+.year-header {
+  margin-left: 1%;
+  margin-top: 4%;
+  font-size: 1.5em;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.movie-card {
+  position: relative;
+  transition: transform 0.2s;
+  width: 180px;
+  overflow: hidden;
+  margin-left: 1%;
+  margin-top: 1%;
+  cursor: pointer;
+  z-index: 0;
+  display: inline-block;
+}
+
+.movie-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 5px;
+  text-align: left;
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+}
+
+.movie-title,
+.rating {
+  margin: 0;
+  font-size: 0.8em;
+}
+
+.rating {
+  font-size: 0.7em;
+}
+
+/* movie search  css*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+/* MovieFix text */
+.header svg {
+  width: 150px;
+  height: auto;
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+/* search input  */
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.search-btn {
+  padding: 8px 12px;
+  background-color: #e92c2c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+}
